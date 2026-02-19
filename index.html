@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+   <!-- NAVBAR --> 
+    <nav class="navbar">
+    <div class="left">
+        <a href="/">Chibuzor Aluka</a>
+    </div> 
+    <div class="right">
+        <a href="http://github.com" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>   
+        <span>Github</span> 
+        </a>
+
+<a href="http://linkedin.com" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>   
+        <span>LinkedIn</span> 
+        </a>
+
+        <a href="mailto:chibuzoraluka@gmail.com">
+        <i class="fa-solid fa-envelope"></i>   
+        <span>Email</span> 
+        </a>
+        </div>
+    </nav>
+    <main>
+        <!-- SECTION 1: Hero -->
+        <section class="hero-section">
+            <div class="text">
+             <h2>Hi, I'm Aluka 👋</h2>   
+             <p>I’m a passionate web developer learning to create clean, responsive, and user-friendly websites.
+I enjoy combining HTML, CSS, and JavaScript to build projects that are both functional and visually appealing.
+</p>
+             <div class="link">
+                <a href="#skills">
+                    <i class="fa-solid fa-code"></i>
+                    <span>Skills</span>
+
+                    <a href="#journey">
+                    <i class="fa-solid fa-pen"></i>
+                    <span>Journey</span>
+
+                    <a href="#contact">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>Contact</span>
+             </div>
+            </div>
+            <div class="headshot">
+                <img src="imagies/resized 2.jpg" alt="Chibuzor Aluka headshot"
+            </div>
+        </section>
+        <!-- SECTION 2: Skills -->
+        <section id="skills" class="skills-section">
+            <h2>Skills</h2>
+            <div class="text">
+             I am currently focused on frontend development, mastering HTML, CSS, and JavaScript.
+I also enjoy exploring frameworks like React and backend technologies like Node.js.
+My goal is to create websites that are simple, fast, and accessible to everyone.
+
+            </div>
+            <div class="cells">
+              <div class="cell">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS logo" width="80">
+                <span>CSS</span>
+              </div>
+
+              <div class="cell">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML logo" width="80">
+                <span>HTML</span>
+              </div>
+              
+              <div class="cell">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript logo" width="80">
+                <span>JavaScript</span>
+              </div>  
+
+              <div class="cell">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="node logo" width="80">
+                <span>Node.js</span>
+              </div>  
+
+              <div class="cell">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="react logo" width="80">
+                <span>React.js</span>
+              </div>  
+            </div>
+        </section>
+        <!-- SECTION 3: Journey -->
+        <section id="journey">
+  <h2>My Learning Journey</h2>
+  <p>
+    I am currently focused on becoming a strong frontend developer.
+    I’ve completed HTML, CSS, and Git, and I’m actively learning
+    JavaScript and Python. My goal is to build clean, responsive,
+    and user-friendly websites.
+  </p>
+
+  <p>
+    I believe in continuous improvement, practical projects,
+    and writing code that is simple and readable.
+  </p>
+</section>
+
+
+        
+        <!-- SECTION 4: Contact -->
+        <section id="contact" class="contact-section">
+        <h2>Contact</h2>  
+        <div class="group">
+          <div class="text">I’m always excited to connect with fellow developers, collaborators, or anyone interested in my work.
+Feel free to reach out via email or social media — I’d love to hear from you!</div>
+
+          <form>
+            <label for="name">Name</label>
+            <input type="text" id="name">
+
+             <label for="email">Email</label>
+            <input type="text" id="email">
+
+              <label for="message">Message</label>
+              <textarea id="message" rows="5"></textarea>
+              <button type="submit">Send Message</button>
+          </form>
+        </div>
+        </section>
+    </main>
+</body>
+</html>
