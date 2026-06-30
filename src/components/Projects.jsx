@@ -18,7 +18,7 @@ const projects = [
     description: 'A high-end architecture studio website with case studies, smooth animations, and a bold dark aesthetic.',
     tags: ['HTML', 'CSS', 'JavaScript'],
     live: 'https://luka-designs.onrender.com',
-    github: 'https://github.com/Aluka-tech',
+    github: 'https://github.com/Aluka-tech/Luka-Designs.git',
     status: 'Live',
     image: lukaDdesigns
   },
@@ -27,7 +27,7 @@ const projects = [
     description: 'A Nigerian restaurant website with menu, online ordering form, scroll animations, and a fully responsive layout.',
     tags: ['HTML', 'CSS', 'JavaScript'],
     live: 'https://chop-and-spice.onrender.com',
-    github: 'https://github.com/Aluka-tech',
+    github: 'https://github.com/Aluka-tech/chop-and-spice-static.git',
     status: 'Live',
     image: chopAndSpice
   },
@@ -36,7 +36,7 @@ const projects = [
     description: 'A full-stack job application tracker with user auth, CRUD, dashboard stats, search and filter.',
     tags: ['Django', 'PostgreSQL', 'Python'],
     live: 'https://job-tracker-aje3.onrender.com',
-    github: 'https://github.com/Aluka-tech',
+    github: 'https://github.com/Aluka-tech/job-tracker.git',
     status: 'Live',
     image: trackly
   },
