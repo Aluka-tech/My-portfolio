@@ -6,7 +6,7 @@ import trackly from '../assets/jobtracker-dashboard.png'
 const projects = [
   {
     title: 'Construx',
-    description: 'A full-stack building materials marketplace for Nigerian users. Features product catalog, cart, vendor dashboard, and JWT authentication.',
+    description: 'A full-stack building materials marketplace that lets vendors list products and buyers order online — built for the Nigerian construction industry.',
     tags: ['React', 'Django', 'PostgreSQL', 'REST API'],
     live: '#',
     github: 'https://github.com/Aluka-tech',
@@ -15,7 +15,7 @@ const projects = [
   },
   {
     title: 'Luka Designs',
-    description: 'A high-end architecture studio site that demonstrates what a premium business website looks like — clean, fast, and built to impress clients.',
+    description: 'A premium architecture studio website designed to attract high-value clients — clean, fast, and built to make a strong first impression.',
     tags: ['HTML', 'CSS', 'JavaScript'],
     live: 'https://luka-designs.onrender.com',
     github: 'https://github.com/Aluka-tech/Luka-Designs.git',
@@ -24,7 +24,7 @@ const projects = [
   },
   {
     title: 'Chop & Spice',
-    description: 'A Nigerian restaurant website with menu, online ordering form, scroll animations, and a fully responsive layout.',
+    description: 'A Nigerian restaurant website with an online menu and reservation form — helping the business attract and convert customers online.',
     tags: ['HTML', 'CSS', 'JavaScript'],
     live: 'https://chop-and-spice.onrender.com',
     github: 'https://github.com/Aluka-tech/chop-and-spice-static.git',
@@ -33,7 +33,7 @@ const projects = [
   },
   {
     title: 'Trackly',
-    description: 'A full-stack productivity app with user authentication, a live dashboard, and real-time filtering — built entirely from scratch.',
+    description: 'A full-stack productivity app that helps job seekers track every application in one place — with auth, a live dashboard, and real-time filtering.',
     tags: ['Django', 'PostgreSQL', 'Python'],
     live: 'https://job-tracker-aje3.onrender.com',
     github: 'https://github.com/Aluka-tech/job-tracker.git',
@@ -47,7 +47,8 @@ function Projects() {
     <section id="projects" className="bg-[#0a0a0a] px-8 md:px-20 py-20">
       <motion.div initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }} viewport={{ once: true }}>
         <p className="text-[#4ade80] text-sm tracking-widest uppercase mb-4">My Work</p>
-        <h2 className="text-white text-4xl md:text-5xl font-bold mb-12">Projects I've built.</h2>
+        <h2 className="text-white text-4xl md:text-5xl font-bold mb-4">Projects I've built.</h2>
+        <p className="text-gray-400 text-lg mb-12 max-w-2xl">Real products, built from scratch. Each one solving a real problem for real users.</p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {projects.map((project, index) => (
             <motion.div key={project.title} initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: index * 0.1 }} viewport={{ once: true }} whileHover={{ scale: 1.02 }} className="border border-gray-800 rounded-2xl overflow-hidden hover:border-gray-600 transition-colors duration-300 flex flex-col">
