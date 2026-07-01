@@ -24,6 +24,7 @@ function Navbar() {
                 <a href="#about" className="text-gray-400 hover:text-white transition-colors duration-300 text-sm">About</a>
                 <a href="#projects" className="text-gray-400 hover:text-white transition-colors duration-300 text-sm">Projects</a>
                 <a href="#contact" className="text-gray-400 hover:text-white transition-colors duration-300 text-sm">Contact</a>
+                <a href="#services" className="text-gray-400 hover:text-white transition-colors duration-300 text-sm">Services</a>
                 <a href="mailto:chibuzoraluka14@gmail.com" className="bg-[#4ade80] text-black text-sm font-semibold px-4 py-2 rounded-full hover:bg-white transition-colors duration-300">Hire Me</a>
             </div>
         </motion.nav>

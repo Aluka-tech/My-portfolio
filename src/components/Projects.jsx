@@ -15,7 +15,7 @@ const projects = [
   },
   {
     title: 'Luka Designs',
-    description: 'A high-end architecture studio website with case studies, smooth animations, and a bold dark aesthetic.',
+    description: 'A high-end architecture studio site that demonstrates what a premium business website looks like — clean, fast, and built to impress clients.',
     tags: ['HTML', 'CSS', 'JavaScript'],
     live: 'https://luka-designs.onrender.com',
     github: 'https://github.com/Aluka-tech/Luka-Designs.git',
@@ -33,7 +33,7 @@ const projects = [
   },
   {
     title: 'Trackly',
-    description: 'A full-stack job application tracker with user auth, CRUD, dashboard stats, search and filter.',
+    description: 'A full-stack productivity app with user authentication, a live dashboard, and real-time filtering — built entirely from scratch.',
     tags: ['Django', 'PostgreSQL', 'Python'],
     live: 'https://job-tracker-aje3.onrender.com',
     github: 'https://github.com/Aluka-tech/job-tracker.git',

@@ -9,8 +9,8 @@ function About() {
             <motion.div initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }} viewport={{ once: true }} className="flex flex-col md:flex-row gap-16 items-center">
                 <div className="flex-1">
                     <p className="text-[#4ade80] text-sm tracking-widest uppercase mb-4">About Me</p>
-                    <h2 className="text-white text-4xl md:text-5xl font-bold mb-8 max-w-2xl">A self-taught developer who builds real products.</h2>
-                    <p className="text-gray-400 text-lg max-w-2xl mb-12 leading-relaxed">I'm a full-stack web developer based in Benin City, Nigeria. I specialize in building fast, clean web applications using React and Django. I care about writing good code and delivering products that actually work for real users.</p>
+                    <h2 className="text-white text-4xl md:text-5xl font-bold mb-8 max-w-2xl">I'm a self-taught full-stack developer with a proven ability to ship real products.</h2>
+                    <p className="text-gray-400 text-lg max-w-2xl mb-12 leading-relaxed">From static business websites to full-stack web apps with auth, dashboards, and APIs — I build things that work.</p>
                     <div>
                         <p className="text-white font-semibold mb-4">My Stack</p>
                         <div className="flex flex-wrap gap-3">
